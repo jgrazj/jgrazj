@@ -5,197 +5,197 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: M1-0607, server: 154.84.1.78, port: 443, type: vmess, uuid: 4842ff94-b7f9-4e44-8680-3275c6318638, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.76043239.xyz}}
-  - {name: M1-0610, server: 23.225.125.84, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
-  - {name: M1-0609, server: 104.16.160.114, port: 443, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: 404, ws-headers: {Host: v.proxynode1.workers.dev}}
-  - {name: M1-0608, server: 104.16.160.114, port: 443, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: 404, ws-headers: {Host: v.proxynode1.workers.dev}}
-  - {name: M1-0611, server: 23.225.125.86, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
-  - {name: M1-0614, server: 154.84.1.85, port: 443, type: vmess, uuid: 10e582a2-2089-4bde-9a5c-3a57bfa846b4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.40983279.xyz}}
-  - {name: M1-0612, server: 154.84.1.79, port: 443, type: vmess, uuid: e33eabe3-1dbd-449d-90a2-636c0f8b6f9a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.28596077.xyz}}
-  - {name: M1-0604, server: 37.120.217.179, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: M1-0619, server: 104.18.57.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: M1-0603, server: 63.141.232.69, port: 57043, type: vmess, uuid: b647a7e0-978b-4af4-b208-a23e10b63403, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 63.141.232.69}}
-  - {name: M1-0606, server: 198.8.85.40, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: M1-0605, server: 82.102.16.101, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: M1-0618, server: xey.wrxjys.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
-  - {name: M1-0613, server: 173.208.202.61, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: M1-0602, server: 185.180.14.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: M1-0617, server: 154.84.1.140, port: 54671, type: vmess, uuid: 2a7349d6-994a-434b-9589-c0020685e528, alterId: 64, cipher: auto, tls: false}
-  - {name: M1-0601, server: www.aech.cc, port: 443, type: vmess, uuid: ef3c6aa0-e5f2-4332-bad8-17c0438dfaa3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: www.aech.cc}}
-  - {name: M1-0616, server: 154.84.1.68, port: 443, type: vmess, uuid: 8447e618-032e-4981-943d-d3082049656d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32429678.xyz}}
-  - {name: M1-0615, server: 103.219.154.170, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 103.219.154.170}}
+  - {name: K0-1101, server: 193.122.98.231, port: 1025, type: ss, cipher: aes-256-cfb, password: DSdN6X9mSdN1(}
+  - {name: K0-1102, server: 125.46.40.166, port: 113, type: vmess, uuid: 39493d0a-902e-3d53-b9a2-c1efd1ff5358, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 125.46.40.166}}
+  - {name: K0-1103, server: 125.46.40.166, port: 110, type: vmess, uuid: 39493d0a-902e-3d53-b9a2-c1efd1ff5358, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 125.46.40.166}}
+  - {name: K0-1104, server: 125.46.40.166, port: 107, type: vmess, uuid: 39493d0a-902e-3d53-b9a2-c1efd1ff5358, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 125.46.40.166}}
+  - {name: K0-1105, server: 125.46.40.166, port: 106, type: vmess, uuid: 39493d0a-902e-3d53-b9a2-c1efd1ff5358, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 125.46.40.166}}
+  - {name: K0-1106, server: 125.46.40.166, port: 111, type: vmess, uuid: 39493d0a-902e-3d53-b9a2-c1efd1ff5358, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 125.46.40.166}}
+  - {name: K0-1107, server: 125.46.40.166, port: 114, type: vmess, uuid: 39493d0a-902e-3d53-b9a2-c1efd1ff5358, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 125.46.40.166}}
+  - {name: K0-1108, server: 125.46.40.166, port: 105, type: vmess, uuid: 39493d0a-902e-3d53-b9a2-c1efd1ff5358, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 125.46.40.166}}
+  - {name: K0-1109, server: 13.248.167.224, port: 80, type: vmess, uuid: 39493d0a-902e-3d53-b9a2-c1efd1ff5358, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: 13.248.167.224}}
+  - {name: K0-1110, server: www.aech.cc, port: 443, type: vmess, uuid: ef3c6aa0-e5f2-4332-bad8-17c0438dfaa3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: www.aech.cc}}
+  - {name: K0-1111, server: 154.17.0.209, port: 80, type: vmess, uuid: 39493d0a-902e-3d53-b9a2-c1efd1ff5358, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: 154.17.0.209}}
+  - {name: K0-1112, server: ddns.ddns1312.top, port: 20500, type: vmess, uuid: efd12afd-b2b0-42fe-a6c0-f315e11f6b75, alterId: 12, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ddns.ddns1312.top}}
+  - {name: K0-1113, server: 104.22.44.50, port: 443, type: vmess, uuid: 011e3bc5-8d82-2efa-c844-05f9daae9a0d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /sommvws, ws-headers: {Host: 8964.buzz}}
+  - {name: K0-1114, server: 156.146.33.73, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: K0-1115, server: 45.148.8.171, port: 8838, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 123456}
+  - {name: K0-1116, server: 185.180.14.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: K0-1117, server: lollollollollol.tomato91.cc, port: 10008, type: vmess, uuid: 8da14630-909c-4e85-bb9a-31fd494907e8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: lollollollollol.tomato91.cc}}
+  - {name: K0-1118, server: lollollollollol.tomato91.cc, port: 22004, type: vmess, uuid: 8da14630-909c-4e85-bb9a-31fd494907e8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: lollollollollol.tomato91.cc}}
+  - {name: K0-1119, server: 183.239.70.171, port: 443, type: vmess, uuid: 39493d0a-902e-3d53-b9a2-c1efd1ff5358, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-sg-a-01.pucdn.me}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - M1-0607
-      - M1-0610
-      - M1-0609
-      - M1-0608
-      - M1-0611
-      - M1-0614
-      - M1-0612
-      - M1-0604
-      - M1-0619
-      - M1-0603
-      - M1-0606
-      - M1-0605
-      - M1-0618
-      - M1-0613
-      - M1-0602
-      - M1-0617
-      - M1-0601
-      - M1-0616
-      - M1-0615
+      - K0-1101
+      - K0-1102
+      - K0-1103
+      - K0-1104
+      - K0-1105
+      - K0-1106
+      - K0-1107
+      - K0-1108
+      - K0-1109
+      - K0-1110
+      - K0-1111
+      - K0-1112
+      - K0-1113
+      - K0-1114
+      - K0-1115
+      - K0-1116
+      - K0-1117
+      - K0-1118
+      - K0-1119
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - M1-0607
-      - M1-0610
-      - M1-0609
-      - M1-0608
-      - M1-0611
-      - M1-0614
-      - M1-0612
-      - M1-0604
-      - M1-0619
-      - M1-0603
-      - M1-0606
-      - M1-0605
-      - M1-0618
-      - M1-0613
-      - M1-0602
-      - M1-0617
-      - M1-0601
-      - M1-0616
-      - M1-0615
+      - K0-1101
+      - K0-1102
+      - K0-1103
+      - K0-1104
+      - K0-1105
+      - K0-1106
+      - K0-1107
+      - K0-1108
+      - K0-1109
+      - K0-1110
+      - K0-1111
+      - K0-1112
+      - K0-1113
+      - K0-1114
+      - K0-1115
+      - K0-1116
+      - K0-1117
+      - K0-1118
+      - K0-1119
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - M1-0607
-      - M1-0610
-      - M1-0609
-      - M1-0608
-      - M1-0611
-      - M1-0614
-      - M1-0612
-      - M1-0604
-      - M1-0619
-      - M1-0603
-      - M1-0606
-      - M1-0605
-      - M1-0618
-      - M1-0613
-      - M1-0602
-      - M1-0617
-      - M1-0601
-      - M1-0616
-      - M1-0615
+      - K0-1101
+      - K0-1102
+      - K0-1103
+      - K0-1104
+      - K0-1105
+      - K0-1106
+      - K0-1107
+      - K0-1108
+      - K0-1109
+      - K0-1110
+      - K0-1111
+      - K0-1112
+      - K0-1113
+      - K0-1114
+      - K0-1115
+      - K0-1116
+      - K0-1117
+      - K0-1118
+      - K0-1119
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - M1-0607
-      - M1-0610
-      - M1-0609
-      - M1-0608
-      - M1-0611
-      - M1-0614
-      - M1-0612
-      - M1-0604
-      - M1-0619
-      - M1-0603
-      - M1-0606
-      - M1-0605
-      - M1-0618
-      - M1-0613
-      - M1-0602
-      - M1-0617
-      - M1-0601
-      - M1-0616
-      - M1-0615
+      - K0-1101
+      - K0-1102
+      - K0-1103
+      - K0-1104
+      - K0-1105
+      - K0-1106
+      - K0-1107
+      - K0-1108
+      - K0-1109
+      - K0-1110
+      - K0-1111
+      - K0-1112
+      - K0-1113
+      - K0-1114
+      - K0-1115
+      - K0-1116
+      - K0-1117
+      - K0-1118
+      - K0-1119
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - M1-0607
-      - M1-0610
-      - M1-0609
-      - M1-0608
-      - M1-0611
-      - M1-0614
-      - M1-0612
-      - M1-0604
-      - M1-0619
-      - M1-0603
-      - M1-0606
-      - M1-0605
-      - M1-0618
-      - M1-0613
-      - M1-0602
-      - M1-0617
-      - M1-0601
-      - M1-0616
-      - M1-0615
+      - K0-1101
+      - K0-1102
+      - K0-1103
+      - K0-1104
+      - K0-1105
+      - K0-1106
+      - K0-1107
+      - K0-1108
+      - K0-1109
+      - K0-1110
+      - K0-1111
+      - K0-1112
+      - K0-1113
+      - K0-1114
+      - K0-1115
+      - K0-1116
+      - K0-1117
+      - K0-1118
+      - K0-1119
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - M1-0607
-      - M1-0610
-      - M1-0609
-      - M1-0608
-      - M1-0611
-      - M1-0614
-      - M1-0612
-      - M1-0604
-      - M1-0619
-      - M1-0603
-      - M1-0606
-      - M1-0605
-      - M1-0618
-      - M1-0613
-      - M1-0602
-      - M1-0617
-      - M1-0601
-      - M1-0616
-      - M1-0615
+      - K0-1101
+      - K0-1102
+      - K0-1103
+      - K0-1104
+      - K0-1105
+      - K0-1106
+      - K0-1107
+      - K0-1108
+      - K0-1109
+      - K0-1110
+      - K0-1111
+      - K0-1112
+      - K0-1113
+      - K0-1114
+      - K0-1115
+      - K0-1116
+      - K0-1117
+      - K0-1118
+      - K0-1119
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - M1-0607
-      - M1-0610
-      - M1-0609
-      - M1-0608
-      - M1-0611
-      - M1-0614
-      - M1-0612
-      - M1-0604
-      - M1-0619
-      - M1-0603
-      - M1-0606
-      - M1-0605
-      - M1-0618
-      - M1-0613
-      - M1-0602
-      - M1-0617
-      - M1-0601
-      - M1-0616
-      - M1-0615
+      - K0-1101
+      - K0-1102
+      - K0-1103
+      - K0-1104
+      - K0-1105
+      - K0-1106
+      - K0-1107
+      - K0-1108
+      - K0-1109
+      - K0-1110
+      - K0-1111
+      - K0-1112
+      - K0-1113
+      - K0-1114
+      - K0-1115
+      - K0-1116
+      - K0-1117
+      - K0-1118
+      - K0-1119
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -218,25 +218,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - M1-0607
-      - M1-0610
-      - M1-0609
-      - M1-0608
-      - M1-0611
-      - M1-0614
-      - M1-0612
-      - M1-0604
-      - M1-0619
-      - M1-0603
-      - M1-0606
-      - M1-0605
-      - M1-0618
-      - M1-0613
-      - M1-0602
-      - M1-0617
-      - M1-0601
-      - M1-0616
-      - M1-0615
+      - K0-1101
+      - K0-1102
+      - K0-1103
+      - K0-1104
+      - K0-1105
+      - K0-1106
+      - K0-1107
+      - K0-1108
+      - K0-1109
+      - K0-1110
+      - K0-1111
+      - K0-1112
+      - K0-1113
+      - K0-1114
+      - K0-1115
+      - K0-1116
+      - K0-1117
+      - K0-1118
+      - K0-1119
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -248,6 +248,7 @@ rules:
  - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
  - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
  - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
  - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
  - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
@@ -264,6 +265,7 @@ rules:
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
